@@ -1,0 +1,94 @@
+ body {
+   color: white;
+   font-family: "Open Sans", sans-serif;
+   letter-spacing: 2px;
+   height: 100vh;
+ }
+
+ .profile-picture {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10%;
+   height: auto;
+   max-width: 190px;
+   border-radius: 30%;
+   border: solid #0802389c;
+   border-width: 10px;
+
+ }
+
+ .profile-name {
+   text-align: center;
+   padding: 30px;
+   font-size: 28px;
+   color: #a2ffe9;
+   text-shadow: 0.1em 0.1em 0.2em black;
+   animation: animationFont 1s;
+   padding-bottom: 2px;
+ }
+
+ i {
+   color: #8ce2ce;
+ }
+
+ p {
+   padding-top: 10px;
+   font-size: 18px;
+   margin: 10px;
+   text-shadow: none;
+   text-align: center;
+ }
+
+ .links {
+   text-align: center;
+   margin-top: 20px;
+   border: 1px solid #169275;
+   border-width: 2px;
+   padding: 20px;
+   width: 290px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 40px;
+   font-size: 18px;
+
+ }
+
+ a {
+   font-family: Verdana, Tahoma, sans-serif;
+   text-decoration: none;
+   background-color: #0802389c;
+   color: #82f7db;
+   transition: color 1s;
+   animation: animationFont 3s;
+ }
+
+ a:hover {
+   color: #2a7c69;
+   background-color: rgba(0, 0, 0, 0.116);
+ }
+
+ .map{
+   margin: 30px;
+   text-align: center;
+ }
+
+ footer {
+   padding: 40px;
+ }
+
+ footer a {
+   text-align: center;
+   color: #82f7dc63;
+ }
+
+ @keyframes animationFont {
+   from {
+     transform: rotateX(70deg);
+   }
+
+   to {
+     transform: rotateX(0deg);
+   }
+ }
