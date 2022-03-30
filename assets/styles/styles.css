@@ -64,6 +64,10 @@
    animation: animationFont 3s;
  }
 
+ .color-purple{
+   background-color: #32126d;
+ }
+
  a:hover {
    color: #2a7c69;
    background-color: rgba(0, 0, 0, 0.116);
